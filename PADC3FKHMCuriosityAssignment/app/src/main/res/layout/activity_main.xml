@@ -16,18 +16,18 @@
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:src="@drawable/curiosity"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="65dp"/>
+            android:layout_marginTop="68dp"
+            android:layout_marginLeft="78dp"/>
 
         <ImageView
             android:id="@+id/iv_fb"
             android:layout_width="wrap_content"
             android:layout_height="59dp"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
+            android:layout_alignParentTop="false"
             android:layout_below="@+id/iv_curiosity_logo"
-            android:layout_marginTop="190dp"
-            android:src="@drawable/SignIn_with_fb" />
+            android:layout_marginTop="98dp"
+            android:src="@drawable/sign_in_with_fb" />
 
 
         <ImageView
@@ -37,7 +37,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/iv_fb"
             android:layout_marginTop="10dp"
-            android:src="@drawable/SignIn_with_google" />
+            android:src="@drawable/sign_in_with_google" />
 
         <ImageView
             android:id="@+id/iv_twitter"
@@ -46,7 +46,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/iv_google"
             android:layout_marginTop="10dp"
-            android:src="@drawable/SIgnIn_with_twitter" />
+            android:src="@drawable/sign_in_with_twitter" />
 
         <ImageView
             android:id="@+id/iv_sign_up_email"
@@ -54,10 +54,10 @@
             android:layout_height="30dp"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/iv_twitter"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="23dp"
             android:layout_marginRight="159dp"
             android:layout_marginTop="15dp"
-            android:src="@drawable/email_sing_in" />
+            android:src="@drawable/email_sing_up" />
 
         <ImageView
             android:id="@+id/iv_sign_in_email"
@@ -66,9 +66,9 @@
             android:layout_alignParentStart="false"
             android:layout_below="@+id/iv_twitter"
             android:layout_marginLeft="198dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="25dp"
             android:layout_marginTop="15dp"
-            android:src="@drawable/email_sing_in" />
+            android:src="@drawable/sign_in_with_email" />
 
 
         <!--<Button-->
